@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+
+    font-family: serif;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.header {
+    text-align: center;
+}
+
+.heading-primary {
+    background-color: red;
+    font-size: 6rem;
+    font-weight: 400;
+
+    padding: 1rem;
+}
+
+.navigation__list {
+    background-color: orange;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.navigation__ilem {
+    padding: 1rem;
+}
+
+.navigation__ilem:not(:last-child) {
+    padding-right: 2.5rem;
+}
+
+.navigation__ilem a {
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+.navigation__ilem a:link,
+.navigation__ilem a:visited {
+    color: #fff;
+}
+
+main {
+    background-color: green;
+    padding: 1rem;
+}
+
+article {
+    background-color: blue;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.heading-secondary {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.trilogies ul,
+.episodes ol {
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    list-style-position: inside;
+}
+
+.footer {
+    background-color: purple;
+}
+
+.footer__text {
+    font-size: 6rem;
+    text-align: center;
+    padding: 1rem;
+}
