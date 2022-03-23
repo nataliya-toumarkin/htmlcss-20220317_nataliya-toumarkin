@@ -1,11 +1,14 @@
 /* Стилизация кнопки */
 
 .btn {
+    box-sizing: border-box;
     padding: 1.5rem 6.3rem;
     border: none;
     border-radius: 0.8rem;
+    font-family: var(--font-primary);
     font-size: var(--default-font-size);
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 1.1;
     cursor: pointer;
 }
 
@@ -19,32 +22,31 @@
     pointer-events: none;
 }
 
-.primary-btn {
+.btn_primary {
     background-color: var(--color-primary);
     color: var(--color-white);
-    transition: 0.3s;
 }
 
-.primary-btn:hover {
+.btn_primary:hover {
     background-color: var(--color-primary-dark);
 }
 
-.secondary-btn {
+.btn_secondary {
     background-color: var(--color-secondary);
     color: var(--color-white);
     transition: 0.3s;
 }
 
-.secondary-btn:hover {
+.btn_secondary:hover {
     background-color: var(--color-secondary-dark);
 }
 
-.alternate-btn {
+.btn_alternate {
     background-color: var(--color-white);
     color: var(--color-text-grey);
     border: 1px solid var(--color-alternate-grey);
 }
 
-.alternate-btn:hover {
+.btn_alternate:hover {
     border: 1px solid var(--color-alternate-grey-dark);
 }
