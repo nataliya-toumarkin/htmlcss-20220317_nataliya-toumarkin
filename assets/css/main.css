@@ -1,24 +1,44 @@
+@import 'normalize.css';
 @import '../fonts/fonts.css';
 
 :root {
-    --white: #ffffff;
-    --black: #212429;
-    --pink: #F784AD;
-    --purple: #7048E8;
-    --blue: #374FC7;
-    --red: #F03D3E;
-    --grey-1: #F8F9FA;
-    --grey-2: #DDE2E5;
-    --grey-3: #ACB5BD;
-    --grey-4: #495057;
+    /*COLOR VARIABLES*/
+    --color-text-white: #fff;
+    --color-text-grey: #495057;
 
-    --error: var(--red);
-    --success: var(--blue);
+    --color-primary: #4263EB;
+    --color-secondary: #7048E8;
+    --color-alternative: #F784AD;
+    --color-alternate-grey: #ACB5BD;
 
-    --primary: var(--blue);
-    --secondary: var(--purple);
+    --color-primary-dark: #2342C0;
+    --color-primary-light: #4263EB;
+
+    --color-secondary-dark: #5028C6;
+    --color-secondary-light: #7048E8;
+
+    --color-alternate-grey-dark: #212429;
+    --color-alternate-grey-ligt: #ACB5BD;
+
+    --color-black: #000;
+    --color-white: #fff;
+
+    /*FONT VARIABLES*/
+    --font-primary: 'Roboto', sans-serif;
+    --default-font-size: 1.6rem;
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-primary);
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    color: var(--color-text-grey);
 }
