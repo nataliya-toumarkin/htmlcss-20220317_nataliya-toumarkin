@@ -1,5 +1,11 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/nav/nav.css';
+@import '../../components/header/header.css';
+@import '../../components/preview/preview.css';
+@import '../../components/footer/footer.css';
 
 :root {
     /*COLOR VARIABLES*/
@@ -23,11 +29,19 @@
     --color-black: #000;
     --color-white: #fff;
 
+    --color-bg-light-grey: #F9FAFC;
+
     /*FONT VARIABLES*/
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Inter', sans-serif;
 
     --default-font-size: 1.6rem;
+    --font-size-main-title: 5rem;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 html {
@@ -37,6 +51,7 @@ html {
 
 body {
     font-family: var(--font-primary);
+    font-size: var(--default-font-size);
     font-weight: 400;
     color: var(--color-text-grey);
 }
