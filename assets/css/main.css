@@ -25,12 +25,10 @@
 
     /*FONT VARIABLES*/
     --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+
     --default-font-size: 1.6rem;
 }
-
-/*
-{font-family: var(--font-primary);}
-*/
 
 html {
     font-size: 62.5%;
