@@ -1,6 +1,9 @@
 .header {
-    padding: 2.4rem 0 7.7rem;
     background-color: var(--color-white);
+}
+
+.header__container {
+    padding: 2.4rem 0 7.7rem;
 }
 
 .header__title {
