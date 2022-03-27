@@ -1,0 +1,17 @@
+.header {
+    background-color: var(--color-white);
+}
+
+.header__container {
+    padding: 2.4rem 0 7.7rem;
+}
+
+.header__title {
+    margin: 0;
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size-main-title);
+    line-height: 4rem;
+    color: var(--color-alternate-grey-dark);
+}
