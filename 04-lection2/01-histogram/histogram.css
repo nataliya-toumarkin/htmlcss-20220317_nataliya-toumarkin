@@ -1,7 +1,7 @@
 .chart__wrapper {
     box-sizing: border-box;
-    height: 185px;
-    width: 354px;
+    max-height: 185px;
+    max-width: 354px;
     padding: 1.6rem 2.4rem 2.4rem 2.4rem;
 
     border: 1px solid var(--color-alternate-grey);
