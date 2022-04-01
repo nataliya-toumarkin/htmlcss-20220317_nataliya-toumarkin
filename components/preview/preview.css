@@ -11,5 +11,5 @@
 
 .preview__card {
     width: calc((100 / 3) * 1%);
-    max-width: 350px;
+    max-width: 35rem;
 }
