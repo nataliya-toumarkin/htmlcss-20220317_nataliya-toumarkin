@@ -1,0 +1,50 @@
+.skeleton__wrapper {
+    box-sizing: border-box;
+    max-width: 597px;
+    border: solid 1px var(--color-alternate-grey);
+    border-radius: 8px;
+    padding: 3.2rem 2.4rem;
+}
+
+.skeleton__header {
+    display: flex;
+    gap: 1.6rem;
+
+    margin-bottom: 2.4rem;
+}
+
+.skeleton__avatar {
+    border-radius: 50%;
+    background-color: var(--color-alternate-grey-ligt);
+    height: 6.4rem;
+    width: 6.4rem;
+}
+
+.skeleton {
+    display: flex;
+    flex-direction: column;
+}
+
+.skeleton__text {
+    display: block;
+    height: 2rem;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    margin-bottom: 0.8rem;
+}
+
+.skeleton__headings span:nth-child(1) {
+    max-width: 172px;
+}
+
+.skeleton__headings span:nth-child(2) {
+    width: 257px;
+    max-width: 257px;
+}
+
+.skeleton__body span:nth-child(1) {
+    max-width: 515px;
+}
+
+.skeleton__body span:nth-child(2) {
+    max-width: 475px;
+}
