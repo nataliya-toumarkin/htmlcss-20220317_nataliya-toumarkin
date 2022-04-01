@@ -1,4 +1,15 @@
 .preview {
-    height: 40rem;
     background-color: var(--color-bg-light-grey);
+    padding: 68px 0;
+}
+
+.preview__inner {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem 3rem;
+}
+
+.preview__card {
+    width: calc((100 / 3) * 1%);
+    max-width: 350px;
 }
