@@ -55,5 +55,5 @@
 
 .chart__bar-item {
     background-color: var(--color-primary);
-    width: 9px;
+    flex-grow: 1;
 }
