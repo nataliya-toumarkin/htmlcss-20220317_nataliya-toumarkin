@@ -1,0 +1,46 @@
+.tooltip {
+    position: relative;
+}
+
+.tooltip__body {
+    height: 2.4rem;
+    width: 2.4rem;
+    background-image: url("../../assets/images/Icons/Help.svg");
+    position: absolute;
+    top: 5rem;
+    left: 7.35rem;
+}
+
+.tooltip__content {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+
+    width: 129px;
+    border-radius: 1rem;
+    background-color: var(--color-black);
+    padding: 13px 21px 8px 21px;
+
+    font-family: var(--font-secondary);
+    color: var(--color-alternate-grey-ligt);
+    font-weight: 400;
+    font-size: var(--default-font-size);
+    line-height: 24px;
+    text-align: center;
+}
+
+.tooltip__content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--color-alternate-grey-dark) transparent transparent transparent;
+}
+
+
+.tooltip:hover .tooltip__content {
+    visibility: visible;
+}
