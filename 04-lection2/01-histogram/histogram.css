@@ -1,4 +1,4 @@
-.chart__wrapper {
+.chart {
     box-sizing: border-box;
     max-height: 185px;
     max-width: 354px;
@@ -14,8 +14,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: start;
-
-    line-height: 24px;
 }
 
 .chart__headind {
@@ -25,6 +23,7 @@
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--color-alternate-grey-dar);
+    line-height: 24px;
 }
 
 .chart__link {
@@ -46,15 +45,15 @@
     line-height: 26px;
 }
 
-.bar__wrapper {
+.chart__bar {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     gap: 1px;
+    height: 50px;
 }
 
-.bar-item {
+.chart__bar-item {
     background-color: var(--color-primary);
-    max-height: 50px;
     width: 9px;
 }
