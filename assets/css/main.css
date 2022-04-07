@@ -29,12 +29,17 @@
 
     --color-black: #000;
     --color-white: #fff;
+    --color-grey: #334D6E;
+    --color-grey-light: #90A0B7;
+    --color-blue-light: #A0B1F5;
+
 
     --color-bg-light-grey: #F9FAFC;
 
     /*FONT VARIABLES*/
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Inter', sans-serif;
+    --font-numbers: 'Source Sans Pro', sans-serif;
 
     --default-font-size: 1.6rem;
     --font-size-main-title: 5rem;
