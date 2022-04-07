@@ -38,6 +38,12 @@
 
     --default-font-size: 1.6rem;
     --font-size-main-title: 5rem;
+
+    /*SIZES VARIBLES*/
+    --width-line-block-s: 67%;
+    --width-line-block-m: 47%;
+    --width-line-block-l: 88%;
+    --width-line-block-xl: 94%;
 }
 
 html,
