@@ -26,35 +26,33 @@
     text-align: center;
   }
 
-  .calendar__content-day {
+  .calendar__content-day_week {
     font-size: 1.4rem;
     color: var(--color-grey-light);
     font-weight: 400;
     line-height: 20px;
-    margin-bottom: 2.4rem;
+    margin-bottom: 2;
 }
 
-.calendar__content-first-day {
+.calendar__content-day_first {
     grid-column-start: 5;
 }
 
-.calendar__content-day-number {
+.calendar__content-day_week {
     font-family: var(--font-numbers);
     font-size: var(--default-font-size);
     color: var(--color-grey);
-    font-weight: 400;
-    line-height: 20px;
 }
 
-.calendar__content .calendar__content-day-number {
+.calendar__content .calendar__content-day_week {
     padding: 8px 4px;
     margin-bottom: 4px;
 }
 
-.color-light-number {
+.color_light_number {
     background-color: var(--color-blue-light);
 }
-.color-dark-number {
+.color_dark_number {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
