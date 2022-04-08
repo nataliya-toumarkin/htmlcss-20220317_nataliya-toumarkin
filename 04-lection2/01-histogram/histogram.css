@@ -1,7 +1,5 @@
 .chart {
     box-sizing: border-box;
-    max-height: 185px;
-    max-width: 354px;
     padding: 1.6rem 2.4rem 2.4rem 2.4rem;
 
     border: 1px solid var(--color-alternate-grey);
@@ -55,5 +53,5 @@
 
 .chart__bar-item {
     background-color: var(--color-primary);
-    width: 9px;
+    flex-grow: 1;
 }
