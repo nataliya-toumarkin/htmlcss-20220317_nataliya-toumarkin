@@ -34,7 +34,10 @@
 }
 
 .accondion__summary::after {
-    content: url('../../assets/icons/Chevron.svg');
+    /* content: url('../../assets/icons/Chevron.svg'); */
+    content: url('../../assets/icons/sprite.svg#chevron');
+    width: 18px;
+    height: 10px;
 
     position: absolute;
     right: 0;
@@ -49,4 +52,9 @@
     margin: 0;
     padding-top: 1.6rem;
     color: var(--color-text-grey);
+}
+
+.icon {
+    height: 240px;
+    width: 240px;
 }
