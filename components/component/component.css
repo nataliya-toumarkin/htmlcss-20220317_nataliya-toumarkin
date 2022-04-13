@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .component__nav {
+        background-color: var(--color-bg-light-grey);
+    }
+    
+    .component__header {
+        border-bottom: none;
+    }
+
+    .component__header_title {
+        padding-left: 2.6rem;
+
+        font-weight: var(--font-weignt-regular);
+        font-size: 2rem;
+        line-height: 26px;
+    }
+
+}

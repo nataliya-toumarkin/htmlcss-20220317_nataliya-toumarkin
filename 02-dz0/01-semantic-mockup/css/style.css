@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 
     font-family: serif;
-    font-weight: 400;
+    font-weight: var(--font-weight-medium);
     color: #fff;
     line-height: 1.2;
 }
@@ -25,7 +25,7 @@ body {
 .heading-primary {
     background-color: red;
     font-size: 6rem;
-    font-weight: 400;
+    font-weight: var(--font-weight-medium);
 
     padding: 1rem;
 }
@@ -71,7 +71,7 @@ article {
 
 .heading-secondary {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: var(--font-weight-medium);
 }
 
 .trilogies ul,

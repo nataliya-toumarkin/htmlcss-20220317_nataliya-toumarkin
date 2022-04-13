@@ -2,6 +2,10 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/main.css">
         <title>Reusable component library</title>
@@ -11,21 +15,53 @@
             <header class="header">
                 <div class="container header__container">
                     <nav class="nav">
-                        <img src="assets/images/Logo.svg" alt="Reusable component library logo" class="logo">
+                        <div class="nav__menu">
+                            <img src="assets/images/Logo.svg" alt="Reusable component library logo" class="logo">
+                        </div>
+
+                        <h1 class="header__title">
+                            Reusable component library
+                        </h1>
+
+                        <ul class="nav__bar">
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__item_link active">All components</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item_link">Elements</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item_link">Containers</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item_link">Templates</a>
+                            </li>
+                        </ul>
                     </nav>
-                    
-                    <h1 class="header__title">
-                        Reusable component library
-                    </h1>
                 </div>
             </header>
 
             <main class="preview">
                 <div class="container">
                     <div class="preview__inner">
-                        <div class="card preview__card"></div>
-                        <div class="card preview__card"></div>
-                        <div class="card preview__card"></div>
+                        <div class="card preview__card">
+                            <div class="preview__card__headings">
+                                <h4 class="preview__card__headings_title">Tooltip</h4>
+                                <p class="preview__card__headings_text">Container</p>
+                            </div>
+                        </div>
+                        <div class="card preview__card">
+                            <div class="preview__card__headings">
+                                <h4 class="preview__card__headings_title">Custom form elements</h4>
+                                <p class="preview__card__headings_text">Element</p>
+                            </div>
+                        </div>
+                        <div class="card preview__card">
+                            <div class="preview__card__headings">
+                                <h4 class="preview__card__headings_title">Calendar</h4>
+                                <p class="preview__card__headings_text">Container</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>

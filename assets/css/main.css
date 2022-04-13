@@ -1,9 +1,10 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
 @import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/component/component.css';
 @import '../../components/container/container.css';
 @import '../../components/nav/nav.css';
-@import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/card/card.css';
 @import '../../components/footer/footer.css';
@@ -39,6 +40,9 @@
     --default-font-size: 1.6rem;
     --font-size-main-title: 5rem;
 
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+
     /*SIZES VARIBLES*/
     --width-line-block-s: 67%;
     --width-line-block-m: 47%;
@@ -59,6 +63,6 @@ html {
 body {
     font-family: var(--font-primary);
     font-size: var(--default-font-size);
-    font-weight: 400;
+    font-weight: var(--font-weight-regular);
     color: var(--color-text-grey);
 }

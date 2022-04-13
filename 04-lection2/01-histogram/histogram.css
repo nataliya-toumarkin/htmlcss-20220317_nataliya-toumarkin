@@ -19,7 +19,7 @@
     margin: 0;
 
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: var(--font-weight-medium);
     color: var(--color-alternate-grey-dar);
     line-height: 24px;
 }

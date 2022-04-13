@@ -1,17 +1,45 @@
 .header {
     background-color: var(--color-white);
+    border-bottom: solid 1px var(--color-alternate-grey-ligt) ;
 }
 
 .header__container {
-    padding: 2.4rem 0 7.7rem;
+    padding: 2.4rem 0 0;
 }
 
 .header__title {
     margin: 0;
     font-family: var(--font-secondary);
-    font-style: normal;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-size-main-title);
     line-height: 4rem;
     color: var(--color-alternate-grey-dark);
+}
+
+@media screen and (max-width: 768px) {
+    .header__container {
+        padding: 0;
+    }
+
+    .nav {
+        padding: 1.7rem 0 1.7rem 1.6rem;
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        border-bottom: solid 1px var(--color-alternate-grey-ligt);
+    }
+
+    .header__title {
+        font-size: 2.8rem;
+        font-weight: var(--font-weight-regular);
+        line-height: 3.8rem;
+        color: var(--color-text-grey);
+
+        padding-right: 7.1rem;
+    }
 }
