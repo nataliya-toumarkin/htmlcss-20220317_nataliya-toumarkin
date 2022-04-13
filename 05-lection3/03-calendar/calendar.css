@@ -49,10 +49,10 @@
     margin-bottom: 4px;
 }
 
-.color_light_number {
+.color_bg_light {
     background-color: var(--color-blue-light);
 }
-.color_dark_number {
+.color_bg_dark {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
