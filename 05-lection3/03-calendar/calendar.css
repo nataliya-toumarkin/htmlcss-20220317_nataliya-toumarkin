@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 
-    list-style: none;
+    /* list-style: none; */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -49,10 +49,10 @@
     margin-bottom: 4px;
 }
 
-.color_bg_light {
+.calendar__content-bg_light {
     background-color: var(--color-blue-light);
 }
-.color_bg_dark {
+.calendar__content-bg_dark {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
