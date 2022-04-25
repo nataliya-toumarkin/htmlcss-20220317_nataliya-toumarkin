@@ -6,6 +6,46 @@
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
+        <div class="checkbox__group">
+            <h6 class="checkbox__heading">Checkbox</h6>
+            <label class="checkbox" for="checkbox-default">
+                <input class="checkbox__input" type="checkbox" name="checkbox-default" id="checkbox-default" value="Default">
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                            
+                    </div>
+                    <div class="checkbox__title">Default</div>
+                </div>
+            </label>
+
+            <label class="checkbox" for="checkbox-checked">
+                <input class="checkbox__input" type="checkbox" name="checkbox-checked" id="checkbox-checked" value="Checked" checked>
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                            
+                    </div>
+                    <div class="checkbox__title">Checked</div>
+                </div>
+            </label>
+
+            <label class="checkbox" for="checkbox-disabled">
+                <input class="checkbox__input" type="checkbox" name="checkbox-disabled" id="checkbox-disabled" value="Disabled" disabled>
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="checkbox__title">Checked</div>
+                </div>
+            </label>
+        </div><!-- /checkbox__group -->
 
     </body>
 </html>
