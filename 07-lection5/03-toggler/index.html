@@ -6,6 +6,43 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
+        <div class="toggle__group">
+            <h6 class="toggle__heading">Toggle Button</h6>
+            <label class="toggle" for="toggle-off">
+                <input class="toggle__input" type="checkbox" name="toggle-off" id="toggle-off" value="Off">
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <svg class="toggle__control_icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="12" fill="#DDE2E5"/>
+                        </svg>
+                    </div>
+                    <div class="toggle__title">Off</div>
+                </div>
+            </label>
 
+            <label class="toggle" for="toggle-on">
+                <input class="toggle__input" type="checkbox" name="toggle-On" id="toggle-on" value="On" checked>
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <svg class="toggle__control_icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="12" fill="#DDE2E5"/>
+                        </svg>
+                    </div>
+                    <div class="toggle__title">On</div>
+                </div>
+            </label>
+
+            <label class="toggle" for="toggle-disabled">
+                <input class="toggle__input" type="checkbox" name="toggle-On" id="toggle-disabled" value="Disabled" disabled>
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <svg class="toggle__control_icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="12" fill="#DDE2E5"/>
+                        </svg>
+                    </div>
+                    <div class="toggle__title">Disabled</div>
+                </div>
+            </label>
+        </div> <!-- /toggle__group -->    
     </body>
 </html>

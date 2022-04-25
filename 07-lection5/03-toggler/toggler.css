@@ -1,0 +1,85 @@
+.toggle__group {
+    font-family: var(--font-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.toggle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text-grey);
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+}
+.toggle__heading {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-alternate-grey);
+    margin-bottom: 0;
+}
+.toggle__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+.toggle__state {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.toggle__control {
+    height: 28px;
+    width: 52px;
+    background: var(--color-white);
+    border: 1px solid var(--color-alternate-grey-ligt);
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1px;
+}
+
+.toggle__title {
+    font-weight: 400;
+    font-size: var(--default-font-size);
+    line-height: 24px;
+    color: var(--color-text-grey);
+}
+
+ .toggle__input:checked ~ .toggle__state .toggle__control{
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    justify-content: flex-end;
+ }
+
+ .toggle__input:checked ~ .toggle__state .toggle__control_icon {
+    display: block;
+ }
+
+ .toggle__input:checked ~ .toggle__state .toggle__control_icon rect {
+     fill: var(--color-white);
+ }
+ 
+
+.toggle__input:focus ~ .toggle__state .toggle__title {
+    text-decoration: underline;
+ }
+
+ .toggle__input:disabled ~ .toggle__state .toggle__title {
+    color: var(--color-alternate-grey-ligt);
+ }
+
+ .toggle__input:disabled ~ .toggle__state .toggle__control{
+    background-color: var(--color-alternate-grey-ligt);
+    border-color: var(--color-alternate-grey-ligt);
+ }
+
+ .toggle__input:disabled ~ .toggle__state .toggle__control_icon rect {
+    fill: var(--color-alternate-grey);
+ }
