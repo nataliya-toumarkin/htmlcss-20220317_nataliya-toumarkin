@@ -6,6 +6,43 @@
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
+        <div class="radio__group">
+            <h6 class="radio__heading">Radio Button</h6>
+            <label class="radio" for="radio-default">
+                <input class="radio__input" type="radio" name="radio-default" id="radio-default" value="Default" checked>
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <svg class="radio__control_icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>
+                    </div>
+                    <div class="radio__title">Default</div>
+                </div>
+            </label>
 
+            <label class="radio" for="radio-selected">
+                <input class="radio__input" type="radio" name="radio-default" id="radio-selected" value="Selected" checked>
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <svg class="radio__control_icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>
+                    </div>
+                    <div class="radio__title">Selected</div>
+                </div>
+            </label>
+
+            <label class="radio" for="radio-disabled">
+                <input class="radio__input" type="radio" name="radio-disabled" id="radio-disabled" value="Disabled" disabled>
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <svg class="radio__control_icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>
+                    </div>
+                    <div class="radio__title">Disabled</div>
+                </div>
+            </label>
+        </div><!--/radio__group-->
     </body>
 </html>
